@@ -17,11 +17,13 @@
 
 ## Запуск
 
+Демонстрация всех заданий:
+
 ```bash
 python -m lab2
 ```
 
-или по отдельности:
+Отдельные модули:
 
 ```bash
 python -m lab2.multiplication_table
@@ -42,12 +44,22 @@ python -m unittest discover -s tests -v
 ```text
 lab2/
 ├── __init__.py
-├── __main__.py
-├── multiplication_table.py   # задание №1
-├── calculator.py             # задание №6
-├── min_element.py            # задание №9
-├── euclid.py                 # задание №2 (повышенная)
-└── recursive_sum.py          # задание №9 (повышенная)
+├── __main__.py                 # точка входа
+├── multiplication_table.py     # №1
+├── calculator.py               # №6
+├── min_element.py              # №9
+├── euclid.py                   # №2 (повышенная)
+└── recursive_sum.py            # №9 (повышенная)
 tests/
-└── ...
+└── test_lab2.py
+```
+
+## Примеры
+
+```text
+[№1] Таблица умножения 1..5
+[№6] 15 + 7 = 22
+[№9] min([8, 3, 15, 1, 9, 2]) = 1
+[№2↑] НОД(48, 18) = 6
+[№9↑] sum(1..100) = 5050
 ```
